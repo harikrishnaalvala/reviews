@@ -1,0 +1,40 @@
+/* Write your code here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.image {
+  background-color: transparent;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.heading {
+  color: #ffffff;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 50%;
+    padding: 10px;
+  }
+}
